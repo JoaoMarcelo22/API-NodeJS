@@ -1,4 +1,5 @@
 {
+  "type":"module",
   "name": "api-nodejs",
   "version": "1.0.0",
   "description": "primeira api usando o node.js",

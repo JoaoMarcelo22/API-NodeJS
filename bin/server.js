@@ -1,7 +1,8 @@
 'use strict';
 
 // Fazendo os impostes
-const app = require('../src/app');
+import {app} from '../src/app.js';
+
 const debug = require('debug')('node-api:server'); 
 const http = require('http');
  

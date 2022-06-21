@@ -1,6 +1,7 @@
-let express = require('express');
+import express from "express";
 
 const app = express();
+
 const router = express.Router();
 
 const route = router.get('/', (req, res, next) => {
@@ -12,4 +13,4 @@ const route = router.get('/', (req, res, next) => {
 
 app.use('/', route);
 
-module.exposts = app;
+export {app};
